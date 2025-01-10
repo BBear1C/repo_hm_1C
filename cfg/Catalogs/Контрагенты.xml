@@ -293,15 +293,15 @@
 				<xr:Characteristic>
 					<xr:CharacteristicTypes from="ChartOfCharacteristicTypes.ВидыХарактеристик">
 						<xr:KeyField>ChartOfCharacteristicTypes.ВидыХарактеристик.StandardAttribute.Ref</xr:KeyField>
-						<xr:TypesFilterField>ChartOfCharacteristicTypes.ВидыХарактеристик.Attribute.Назначение</xr:TypesFilterField>
-						<xr:TypesFilterValue xsi:type="xr:DesignTimeRef">Enum.НазначениеХарактеристик.EnumValue.Контрагенты</xr:TypesFilterValue>
+						<xr:TypesFilterField>-1</xr:TypesFilterField>
+						<xr:TypesFilterValue xsi:nil="true"/>
 						<xr:DataPathField>ChartOfCharacteristicTypes.ВидыХарактеристик.StandardAttribute.Ref</xr:DataPathField>
 						<xr:MultipleValuesUseField>-1</xr:MultipleValuesUseField>
 					</xr:CharacteristicTypes>
 					<xr:CharacteristicValues from="InformationRegister.Характеристики">
-						<xr:ObjectField>InformationRegister.Характеристики.Dimension.Объект</xr:ObjectField>
-						<xr:TypeField>InformationRegister.Характеристики.Dimension.ВидХарактеристики</xr:TypeField>
-						<xr:ValueField>InformationRegister.Характеристики.Resource.Значение</xr:ValueField>
+						<xr:ObjectField>-1</xr:ObjectField>
+						<xr:TypeField>-1</xr:TypeField>
+						<xr:ValueField>-1</xr:ValueField>
 						<xr:MultipleValuesKeyField>-1</xr:MultipleValuesKeyField>
 						<xr:MultipleValuesOrderField>-1</xr:MultipleValuesOrderField>
 					</xr:CharacteristicValues>
