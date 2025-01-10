@@ -5,6 +5,7 @@
 	<AutoCommandBar name="Форма_КоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="AfterWrite">ПослеЗаписи</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
 	</Events>
 	<ChildItems>
 		<InputField name="Код" id="1">
@@ -27,7 +28,22 @@
 			<CheckBoxType>Auto</CheckBoxType>
 			<ContextMenu name="ВалютныйУчет_КонтекстноеМеню" id="6"/>
 			<ExtendedTooltip name="ВалютныйУчетExtendedTooltip" id="9"/>
+			<Events>
+				<Event name="OnChange">ВалютныйУчетПриИзменении</Event>
+			</Events>
 		</CheckBoxField>
+		<InputField name="ВалютаУчета" id="10">
+			<DataPath>Объект.ВалютаУчета</DataPath>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Основная валюта учета</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ВалютаУчетаКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="ВалютаУчетаРасширеннаяПодсказка" id="12"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
