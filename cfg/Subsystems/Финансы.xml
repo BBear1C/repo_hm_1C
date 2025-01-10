@@ -35,6 +35,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.КурсыВалют</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">AccumulationRegister.Взаиморасчеты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Валюты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ДоговорыКонтрагентов</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects>
