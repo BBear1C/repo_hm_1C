@@ -120,7 +120,8 @@
 		<Metadata name="Catalog.НастройкиТорговогоОборудования.Form.ФормаЭлемента" id="ea502ab5-d5a0-4fe7-af8a-24fb0da9c61c" configVersion="14c1609bd5b8ab4fb0d9c7157436605200000000"/>
 		<Metadata name="Catalog.НастройкиТорговогоОборудования.Form.ФормаЭлемента.Form" id="ea502ab5-d5a0-4fe7-af8a-24fb0da9c61c.0" configVersion="2c2c6f371599104f984bf9e827ff909200000000"/>
 		<Metadata name="Catalog.НастройкиТорговогоОборудования.Help" id="2c5f6423-60fe-4b43-a81f-376c3a541621.1" configVersion="ebb83c1b97b0224ea7fbe8cb024225a400000000"/>
-		<Metadata name="Catalog.Организации" id="8fa0d9d7-c555-441a-a39b-5720ba0b9cfa" configVersion="3231949103a98e41a94184658df21d3c00000000">
+		<Metadata name="Catalog.Организации" id="8fa0d9d7-c555-441a-a39b-5720ba0b9cfa" configVersion="8132bf1f12d3744eaee57056ea0261b700000000">
+			<Metadata name="Catalog.Организации.Attribute.ВалютаУчета" id="4e00d6c9-9707-4eb6-a018-78db89c63c3e"/>
 			<Metadata name="Catalog.Организации.Attribute.ВалютныйУчет" id="e57f3802-68d0-441d-bde8-353230b7bdc2"/>
 		</Metadata>
 		<Metadata name="Catalog.Организации.Form.ФормаЭлемента" id="9ab31115-47b7-41a1-9f3b-ecf8a853747e" configVersion="619e506f10c97e448ff06d7ccccbc18c00000000"/>
