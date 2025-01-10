@@ -157,6 +157,12 @@
 				</UsualGroup>
 			</ChildItems>
 		</UsualGroup>
+		<InputField name="ЕдиницаИзмерения" id="90">
+			<DataPath>Объект.ЕдиницаИзмерения</DataPath>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ЕдиницаИзмеренияКонтекстноеМеню" id="91"/>
+			<ExtendedTooltip name="ЕдиницаИзмеренияРасширеннаяПодсказка" id="92"/>
+		</InputField>
 		<Pages name="ГруппаТабличныеЧасти" id="16">
 			<PagesRepresentation>TabsOnTop</PagesRepresentation>
 			<ExtendedTooltip name="ГруппаТабличныеЧастиExtendedTooltip" id="64"/>
